@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+In this project, let's build a Stopwatch by applying the concepts we have learned till now.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Refer to the image below:
 
-## Available Scripts
+![image](https://github.com/bukka5sandhya/React-Js-Stopwatch/assets/133884532/eda60f9f-0a12-481c-9486-18ea93812afc)
 
-In the project directory, you can run:
+https://assets.ccbp.in/frontend/content/react-js/stopwatch-output-v2.gif
 
-### `npm start`
+Design Files
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Click to view
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Extra Small (Size < 576px), Small (Size >= 576px)
 
-### `npm test`
+Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Set Up Instructions
 
-### `npm run build`
+Click to view
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Download dependencies by running npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start up the app using npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Completion Instructions
 
-### `npm run eject`
+Functionality to be added
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The app must have the following functionalities
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+When the Start button is clicked, then the Stopwatch should start running
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+When the Stop button is clicked, then the Stopwatch should stop running
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+When the Reset button is clicked, then the Stopwatch should be reset to zero
 
-## Learn More
+Implementation Files
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Use these files to complete the implementation:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+src/components/Stopwatch/index.js
 
-### Code Splitting
+src/components/Stopwatch/index.css
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Quick Tips
 
-### Analyzing the Bundle Size
+Click to view
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+You can use the box-shadow CSS property to apply the box-shadow effect to containers
 
-### Making a Progressive Web App
+ box-shadow: 0px 4px 16px 0px #bfbfbf;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ ![image](https://github.com/bukka5sandhya/React-Js-Stopwatch/assets/133884532/8b47ec71-8c99-41d0-b0cc-0aa82ec6b19b)
 
-### Advanced Configuration
+You can use Math.floor() function that returns the largest integer less than or equal to a given number
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+console.log(Math.floor(5.95));
 
-### Deployment
+Resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Image URLs
 
-### `npm run build` fails to minify
+https://assets.ccbp.in/frontend/react-js/stopwatch-timer.png alt should be stopwatch
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png
+
+https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png
+
+Colors
+
+Hex: #ffffff
+
+Hex: #333333
+
+Hex: #1db05f
+
+Hex: #ef0d36
+
+Hex: #eaa800
+
+Font-families
+
+Roboto
+
+Things to Keep in Mind
+
+All components you implement should go in the src/components directory.
+
+Don't change the component folder names as those are the files being imported into the tests.
+
+Do not remove the pre-filled code
+
+Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
